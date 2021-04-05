@@ -146,6 +146,8 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ::\\->::→ ; Sends left arrow
 ::\\<-::← ; Sends right arrow
 
+::\\diam::⌀ ; Diameter
+
 ; ::\limfty::lim_(n→∞)⁡{Space}      ; Sends limit as n approaches ∞
 ; ::\intfty::\int_(1){^}∞{Space}   ; Sends integral from 1 to infinity
 ; ::\sumfty::\sum_(n=1){^}∞{Space} ; Sends sum to infinity
