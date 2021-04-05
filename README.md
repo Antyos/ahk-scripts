@@ -16,6 +16,4 @@ Startup folder path:
 %APPDATA%/Microsoft/Windows/Start Menu/Programs/Startup/
 ```
 
-Alternatively, you can copy `Startup/StartAHK.ps1` into the startup folder and set the variable `$ahkpath` to the folder where you keep your AutoHotkey files.
-
-You can also run `Startup/ApplyStartup.ps1` (make sure `Startup/StartAHK.ps1` is in the same folder and `$ahkpath` is set) to automatically copy `Startup/StartAHK.ps1` into the startup folder
+Alternatively, you can copy `Startup/StartAHK.bat` into the startup folder noted above and set the variable `AHK_PATH` on line 3 to the folder where you keep your AutoHotkey files.
